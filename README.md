@@ -9,3 +9,6 @@
 - Present time will display in red,
 - Future event or task will be displayed in green.
 
+![Alt text](image.png)
+
+https://stephaniemnz.github.io/Work-Day-Scheduler/
