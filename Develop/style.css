@@ -1,6 +1,7 @@
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 16px;
+  line-height: 1;
 }
 
 textarea {
@@ -12,15 +13,26 @@ textarea {
   padding: 10px;
 }
 
+.wds {
+  text-align: center;
+  background-color: transparent;
+  color: black;
+  border-radius: 0;
+  border-bottom: 10px solid black;
+}
+
 .description {
   white-space: pre-wrap;
 }
 
 .time-block {
+  text-align: center;
   border-radius: 15px;
 }
 
 .row {
+  white-space: pre-wrap;
+  height: 80px;
   border-top: 1px solid white;
 }
 
@@ -31,17 +43,17 @@ textarea {
 }
 
 .past {
-  background-color: #d3d3d3;
+  background-color: rgb(0, 153, 255);
   color: white;
 }
 
 .present {
-  background-color: #ff6961;
+  background-color: #73ff61;
   color: white;
 }
 
 .future {
-  background-color: #77dd77;
+  background-color: #ddd677;
   color: white;
 }
 
@@ -49,11 +61,33 @@ textarea {
   border-left: 1px solid black;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
-  background-color: #06aed5;
+  background-color: #bd06d5;
   color: white;
 }
 
 .saveBtn i:hover {
   font-size: 20px;
   transition: all 0.3s ease-in-out;
+}
+
+@media screen and (max-width: 768px), screen and (max-width: 575px) {
+  .row {
+    height: auto;
+    margin-top: 20px;
+  }
+
+  .hour {
+    padding-right: 17%;
+  }
+
+  .saveBtn {
+    border: 0;
+    border-radius: 0.25rem;
+    height: 50px;
+  }
+
+  textarea {
+    min-height: 85px;
+    border: 0;
+  }
 }
