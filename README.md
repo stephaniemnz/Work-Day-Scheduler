@@ -1,6 +1,6 @@
 # Work-Day-Scheduler
 
-## Discription:
+## Description:
 - This Scheduler meant to help create and organize daily tasks or event. On top of the page, the current date will be displayed and below you will see the hours between 9AM and 5PM.
 
 ## Usage
